@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand-darker: #163665;
+    --color-brand-dark: #265ba6;
+    --color-brand-default: #3a7ad5;
+    --color-brand-light: #89b0e6;
+    --color-brand-lighter: #cdddf4;
+
+    --color-neutral-darker: #3d3d3d;
+    --color-neutral-dark: #666666;
+    --color-neutral-default: #1f1f1f;
+    --color-neutral-light: #b8b8b8;
+    --color-neutral-lighter: #e0e0e0;
+
+    --color-positive-darker: #315f1b;
+    --color-positive-dark: #417f25;
+    --color-positive-default: #55a630;
+    --color-positive-light: #a9df90;
+    --color-positive-lighter: #daf1d0;
+
+    --color-negative-darker: #7a0000;
+    --color-negative-dark: #a30000;
+    --color-negative-default: #d00000;
+    --color-negative-light: #ff7070;
+    --color-negative-lighter: #ffc2c2;
+
+    --color-warning-darker: #7a5f00;
+    --color-warning-dark: #cc9f00;
+    --color-warning-default: #fdc500;
+    --color-warning-light: #ffdf70;
+    --color-warning-lighter: #fff1c2;
+
+    --radius: 25px;
+  }
+}
+
+::-webkit-file-upload-button {
+  display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
