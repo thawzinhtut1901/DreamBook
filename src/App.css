@@ -1,0 +1,18 @@
+@keyframes swipeRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.swipe-right-animation {
+  animation: swipeRight 1s ease-out;
+}
+
+/* .faq-item {
+  transition: all 9s ease;
+} */
